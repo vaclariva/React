@@ -49,4 +49,7 @@ body {
     justify-content: space-around;
     padding: 40px;
   }
-  
+
+  .header {
+    background-color: #0056b3;
+  }
