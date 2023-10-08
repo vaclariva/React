@@ -1,16 +1,27 @@
 import React from "react";
-import Home from "./components/page/Home"; // Sesuaikan path dengan lokasi file Beranda.js Anda
-// import './components/Home.css'
-import "./App.css";
-import "./components/css/Home.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
-function App() {
+// tampilan awal dan menu
+import Home from "./pages/Home/Home";
+import Auth from "./pages/Auth/Auth"
+// navbar dan footer
+import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
+
+const App = () => {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+        <Footer />
+      </main>
+    </Router>
   );
-}
+};
 
 export default App;
