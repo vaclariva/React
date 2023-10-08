@@ -50,7 +50,6 @@ form input {
 }
 form .btn {
   height: 35px;
-  background: white;
   border: none;
   padding: 0px 6px;
   margin: 8px 0px;
@@ -58,7 +57,6 @@ form .btn {
   left: 60%;
   font-weight: 600;
   cursor: pointer;
-  color: #0800ff;
 }
 .btn:hover {
   background:#0800ff;
@@ -86,7 +84,7 @@ form .btn {
   -o-transition: all 0.25s;
 }
 .social-link a:hover {
-  color: rgb(0, 0, 213);
+  color: #0D6EFD;
 }
 .footer-bottom {
   background: rgb(0, 0, 213); 
@@ -95,6 +93,11 @@ form .btn {
   display: flex;
   justify-content: space-between;
 }
+
+.footer-section a:hover {
+  color: #0D6EFD;
+}
+
 .footer-bottom a {
   color: #fff;
   font-size: 14px;
