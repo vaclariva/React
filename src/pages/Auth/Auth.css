@@ -140,9 +140,11 @@
   border-color: #0233f7;
 }
 .form-content .input-box i{
+  margin-left: 10px;
   position: absolute;
   color: #0233f7;
   font-size: 17px;
+  z-index: 2;
 }
 .forms .form-content .text{
   font-size: 14px;

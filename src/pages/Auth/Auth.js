@@ -1,6 +1,7 @@
 import React from "react";
 import "./Auth.css";
 import logo from "../../assets/img/logo.png"
+import "font-awesome/css/font-awesome.min.css";
 
 const Auth = () => {
   return (
