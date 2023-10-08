@@ -62,8 +62,8 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
+        <ul className="navbar-nav ml-auto"> {/* Gunakan ml-auto untuk menu di kanan */}
+          <li className="nav-item active">
             <NavLink className="nav-link" to="/" exact>
               <i className="fas fa-home"></i>Beranda
             </NavLink>
