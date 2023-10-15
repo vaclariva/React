@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 // tampilan awal dan menu
 import Home from "./pages/Home/Home";
 import Auth from "./pages/Auth/Auth"
+import Cari from "./pages/Cari/Cari";
 // navbar dan footer
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
@@ -15,6 +16,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/cari" element={<Cari />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

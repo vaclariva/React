@@ -2,6 +2,7 @@ import React from "react";
 import "./Auth.css";
 import logo from "../../assets/img/logo.png";
 import "font-awesome/css/font-awesome.min.css";
+import { NavLink } from "react-router-dom";
 
 const Auth = () => {
   return (
@@ -10,12 +11,6 @@ const Auth = () => {
       <div className="cover">
         <div className="front">
           <img src={logo} alt="" />
-          <div className="text">
-            <span className="text-1">
-              Every new friend is a <br /> new adventure
-            </span>
-            <span className="text-2">Let's get connected</span>
-          </div>
         </div>
         <div className="back">
           <img src={logo} alt="" />
