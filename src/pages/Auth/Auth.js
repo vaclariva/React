@@ -2,7 +2,7 @@ import React from "react";
 import "./Auth.css";
 import logo from "../../assets/img/logo.png";
 import "font-awesome/css/font-awesome.min.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Auth = () => {
   return (
@@ -37,7 +37,7 @@ const Auth = () => {
                   <input type="password" placeholder="Enter your password" required />
                 </div>
                 <div className="text">
-                  <a href="#">Forgot password?</a>
+                  <Link to="#">Forgot password?</Link>
                 </div>
                 <div className="button input-box">
                   <input type="submit" value="Submit" />

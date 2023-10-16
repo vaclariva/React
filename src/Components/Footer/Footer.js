@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -8,23 +9,23 @@ const Footer = () => {
         <div className="footer-wrap-1">
           <div className="footer-section">
             <h1>About</h1>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Pricing</a>
-            <a href="#">Careers</a>
+            <Link to="#">Services</Link>
+            <Link to="#">Portfolio</Link>
+            <Link to="#">Pricing</Link>
+            <Link to="#">Careers</Link>
           </div>
           <div className="footer-section">
             <h1>Resources</h1>
-            <a href="#">Docs</a>
-            <a href="#">Blog</a>
-            <a href="#">eBooks</a>
-            <a href="#">Videos</a>
+            <Link to="#">Docs</Link>
+            <Link to="#">Blog</Link>
+            <Link to="#">eBooks</Link>
+            <Link to="#">Videos</Link>
           </div>
           <div className="footer-section">
             <h1>Contact</h1>
-            <a href="#">Help</a>
-            <a href="#">Sales</a>
-            <a href="#">Advertise</a>
+            <Link to="#">Help</Link>
+            <Link to="#">Sales</Link>
+            <Link to="#">Advertise</Link>
           </div>
           <div className="footer-section">
             <h1>Stay Connected</h1>
@@ -40,28 +41,28 @@ const Footer = () => {
         <div className="footer-wrap-2">
           <div className="line"></div>
           <div className="social-link">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="#">
               <i className="fab fa-github"></i>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="#">
               <i className="fab fa-facebook"></i>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="#">
               <i className="fab fa-twitter-square"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
         <div className="first-box">
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Privacy Policy</a>
+          <Link to="#">Terms & Conditions</Link>
+          <Link to="#">Privacy Policy</Link>
         </div>
         <div className="last-box">
-          <a href="#">&copy; Copyright 2023 Job Connect</a>
+          <Link to="#">&copy; Copyright 2023 Job Connect</Link>
         </div>
       </div>
     </div>
